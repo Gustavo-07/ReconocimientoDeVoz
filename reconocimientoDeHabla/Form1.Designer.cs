@@ -41,6 +41,7 @@
             this.BtnDetener.TabIndex = 0;
             this.BtnDetener.Text = "Detener";
             this.BtnDetener.UseVisualStyleBackColor = true;
+            this.BtnDetener.Click += new System.EventHandler(this.BtnDetener_Click);
             // 
             // BtnIniciar
             // 

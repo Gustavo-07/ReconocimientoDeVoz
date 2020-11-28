@@ -1,0 +1,10 @@
+C:\Users\Ricky\source\repos\reconocimientoDeHabla\reconocimientoDeHabla\bin\Debug\reconocimientoDeHabla.exe.config
+C:\Users\Ricky\source\repos\reconocimientoDeHabla\reconocimientoDeHabla\bin\Debug\reconocimientoDeHabla.exe
+C:\Users\Ricky\source\repos\reconocimientoDeHabla\reconocimientoDeHabla\bin\Debug\reconocimientoDeHabla.pdb
+C:\Users\Ricky\source\repos\reconocimientoDeHabla\reconocimientoDeHabla\obj\Debug\reconocimientoDeHabla.csprojAssemblyReference.cache
+C:\Users\Ricky\source\repos\reconocimientoDeHabla\reconocimientoDeHabla\obj\Debug\reconocimientoDeHabla.Form1.resources
+C:\Users\Ricky\source\repos\reconocimientoDeHabla\reconocimientoDeHabla\obj\Debug\reconocimientoDeHabla.Properties.Resources.resources
+C:\Users\Ricky\source\repos\reconocimientoDeHabla\reconocimientoDeHabla\obj\Debug\reconocimientoDeHabla.csproj.GenerateResource.cache
+C:\Users\Ricky\source\repos\reconocimientoDeHabla\reconocimientoDeHabla\obj\Debug\reconocimientoDeHabla.csproj.CoreCompileInputs.cache
+C:\Users\Ricky\source\repos\reconocimientoDeHabla\reconocimientoDeHabla\obj\Debug\reconocimientoDeHabla.exe
+C:\Users\Ricky\source\repos\reconocimientoDeHabla\reconocimientoDeHabla\obj\Debug\reconocimientoDeHabla.pdb

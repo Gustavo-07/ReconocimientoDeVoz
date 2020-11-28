@@ -27,7 +27,19 @@ namespace reconocimientoDeHabla
         private void BtnIniciar_Click(object sender, EventArgs e)
         {
             oEscucha.SetInputToDefaultAudioDevice();
-            oEscucha
+            oEscucha.LoadGrammar(new DictationGrammar());
+            oEscucha.SpeechRecognized += Deteccion;
+            oEscucha.RecognizeAsync(RecognizeMode.Multiple);
+        }
+
+        private void Deteccion(object sender,SpeechRecognizedEventArgs s)
+        {
+            txtTexto.Text = s.Result.Text;
+        }
+
+        private void BtnDetener_Click(object sender, EventArgs e)
+        {
+            oEscucha.RecognizeAsyncStop();
         }
     }
 }
