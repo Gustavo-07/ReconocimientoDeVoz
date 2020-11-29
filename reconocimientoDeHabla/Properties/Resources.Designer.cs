@@ -63,6 +63,16 @@ namespace reconocimientoDeHabla.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_audio_wave_24 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-audio-wave-24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_macos_minimize_24 {
             get {
                 object obj = ResourceManager.GetObject("icons8-macos-minimize-24", resourceCulture);
@@ -126,6 +136,16 @@ namespace reconocimientoDeHabla.Properties {
         internal static System.Drawing.Bitmap icons8_shrink_24 {
             get {
                 object obj = ResourceManager.GetObject("icons8-shrink-24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_stop_circled_24 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-stop-circled-24", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

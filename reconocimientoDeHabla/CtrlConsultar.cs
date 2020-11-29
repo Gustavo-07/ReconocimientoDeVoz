@@ -27,18 +27,18 @@ namespace reconocimientoDeHabla
 
         }
 
-        private void BtnDetener_Click(object sender, EventArgs e)
+       /* private void BtnDetener_Click(object sender, EventArgs e)
         {
             oEscucha.RecognizeAsyncStop();
         }
 
-        private void BtnIniciar_Click(object sender, EventArgs e)
+       private void BtnIniciar_Click(object sender, EventArgs e)
         {
             oEscucha.SetInputToDefaultAudioDevice();
             oEscucha.LoadGrammar(new DictationGrammar());
             oEscucha.SpeechRecognized += Deteccion;
             oEscucha.RecognizeAsync(RecognizeMode.Multiple);
-        }
+        } */
 
         private void Deteccion(object sender, SpeechRecognizedEventArgs s)
         {
@@ -57,7 +57,7 @@ namespace reconocimientoDeHabla
             SqlCommand cmd = conexion.CreateCommand();
 
             cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "SELECT * FROM libros where titulo like ('" + txtTexto.Text + "%')";
+            cmd.CommandText = "SELECT * FROM libros where titulo like ('%" + txtTexto.Text + "%') OR autor like ('%" + txtTexto.Text + "%') OR estado like ('" + txtTexto.Text + "%') ";
             cmd.ExecuteNonQuery();
 
             DataTable dt = new DataTable();
@@ -68,6 +68,20 @@ namespace reconocimientoDeHabla
             DtgLibros.DataSource = dt;
 
             conexion.Close();
+        }
+
+        private void BtnIniciar_Click(object sender, EventArgs e)
+        {
+            oEscucha.SetInputToDefaultAudioDevice();
+            oEscucha.LoadGrammar(new DictationGrammar());
+            oEscucha.SpeechRecognized += Deteccion;
+            oEscucha.RecognizeAsync(RecognizeMode.Multiple);
+        }
+
+        private void BtnDetener_Click(object sender, EventArgs e)
+        {
+            txtTexto.Clear();
+            oEscucha.RecognizeAsyncStop();
         }
     }
 }
