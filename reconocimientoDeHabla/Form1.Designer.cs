@@ -83,6 +83,7 @@
             // 
             // BtnConsultar
             // 
+            this.BtnConsultar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.BtnConsultar.FlatAppearance.BorderSize = 0;
             this.BtnConsultar.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.Highlight;
             this.BtnConsultar.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.Highlight;
@@ -102,6 +103,7 @@
             // 
             // BtnGuardar
             // 
+            this.BtnGuardar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.BtnGuardar.FlatAppearance.BorderSize = 0;
             this.BtnGuardar.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.Highlight;
             this.BtnGuardar.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.Highlight;

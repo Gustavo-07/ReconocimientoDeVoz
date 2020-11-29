@@ -111,5 +111,11 @@
   <ItemGroup>
     <None Include="Resources\icons8-search-26.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-audio-wave-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-stop-circled-24.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
